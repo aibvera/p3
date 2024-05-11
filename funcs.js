@@ -16,6 +16,7 @@ function isGa() {
     }
     else {
         result.innerHTML = "No.";
+        result.style.color = "black";
     }
 
 }
@@ -26,6 +27,7 @@ function isNotGa() {
     var result = document.getElementById("result");
     if (imgFile != "5.jpg") {
         result.innerHTML = "Sip. Esa no es >=]";
+        result.style.color = "black";
     }
     else {
         result.innerHTML = "COMO TE VAS A EQUIVOCAR ASI >=[[[.";
