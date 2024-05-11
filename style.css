@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: radial-gradient(circle, #8ddef4 20%, #d609f1 90%);
+    color: black;
+}
+
+h1, h3, h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3 {
+    margin-top: 10px;
+}
+
+.imgShown {
+    height: 300px;
+    width: 100%;
+}
+
+.selectionBox {
+    border: solid 1.5px;
+    margin-top: 10px;
+    background-image: radial-gradient(circle, #d609f1 10%, #8ddef4 100%);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    border: solid 1.5px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+}

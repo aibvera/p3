@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="funcs.js" defer></script>
+</head>
+
+<body>
+    <h1>Encuentra a la Ga</h1>
+    <p>Toca el recuadro para cambiar de imágenes</p>
+    <img class="imgShown" id="imgShown" onclick="getRandomImg()">
+    <div class="selectionBox">
+        <h4 id="state">Selecciona pls</h3>
+        <div class="buttonContainer">
+            <input type="button" value="Es Ga" class="button" onclick="isGa()">
+            <input type="button" value="NO es Ga" class="button" onclick="isNotGa()">
+        </div>
+    </div>
+    <h3 id="result"></h3>
+</body>
+</html>
